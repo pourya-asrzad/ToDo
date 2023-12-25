@@ -1,0 +1,37 @@
+.text-sm{
+    font-size: 16px;
+    color: gray;
+    font-weight: 200;
+}
+
+.text-lg-bold{
+  font-size: 24px;
+  color: var(--brand-dark);
+  font-weight: bold;
+}
+
+.flex{
+    display: flex;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+
+.justify-around{
+    justify-content: space-around;
+}
+
+
+.mt-base{
+    margin-top: 2rem;
+}
