@@ -1,4 +1,4 @@
-import { times } from "./timeData.js"
+import { times } from "./static/timeData.js"
 import { todoData } from "./todoData.js"
 
 const todoListContainer = document.getElementById("todo-list-container")
