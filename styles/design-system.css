@@ -51,7 +51,24 @@
     justify-content: space-around;
 }
 
+.gap-1 {
+    gap: 4px;
+}
 
 .flex-col {
     flex-direction: column;
+}
+
+.hr {
+    height: .2px;
+    width: 100%;
+    background-color: #313131a9;
+}
+
+.pt-6 {
+    padding-top: 24px;
+}
+
+.px-2 {
+    padding: 0 8px;
 }
