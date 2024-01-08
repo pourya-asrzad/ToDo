@@ -1,1 +1,36 @@
 @import url("reset.css");
+
+.add-task-input {
+    border: 0;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    outline: 0;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+input {
+    min-height: 2rem;
+}
+
+.date-input {
+    margin: 0 10px;
+    margin-top: 5px;
+}
+
+.times {
+    margin-left: 2rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+}
+
+textarea {
+    border: 0;
+    outline: 0;
+}

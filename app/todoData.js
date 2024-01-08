@@ -4,11 +4,11 @@ export const todoData = [
         title: "cooking",
         date: 5346354634,
         startTime: {
-            label: "8:00",
+            label: "08:00",
             position: 1
         },
         endTime: {
-            label: "8:30",
+            label: "08:30",
             position: 2
         },
         category: 1,
@@ -21,11 +21,11 @@ export const todoData = [
         title: "cooking",
         date: 5346354634,
         startTime: {
-            label: "9:00",
+            label: "009:00",
             position: 3
         },
         endTime: {
-            label: "9:30",
+            label: "009:30",
             position: 4
         },
         category: 1,
@@ -38,11 +38,11 @@ export const todoData = [
         title: "golam",
         date: 5346354634,
         startTime: {
-            label: "8:30",
+            label: "008:30",
             position: 2
         },
         endTime: {
-            label: "9:00",
+            label: "009:00",
             position: 3
         },
         category: 1,

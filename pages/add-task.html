@@ -10,8 +10,83 @@
   <body>
     <header class="flex flex-end mt-base px-lg">
       <a href="../index.html">
-        <img src="/assets/images/arrow-left.png" alt="arrow" />
+        <img src="/assets/images/arrow-left.png" height="25" alt="arrow" />
       </a>
     </header>
+    <form>
+      <input
+        type="text"
+        name="title"
+        placeholder="Add Task"
+        class="add-task-input"
+      />
+      <div class="times">
+        <div class="flex flex-col date-input">
+          <label for="todo-date" class="text-sm">choose date</label>
+          <input type="date" name="date" id="todo-date" />
+        </div>
+        <div class="flex flex-col date-input">
+          <label for="startTime" class="text-sm">start time</label>
+          <select name="startTime" id="startTime">
+            <option value="08:00">08:00</option>
+            <option value="08:30">08:30</option>
+            <option value="09:00">09:00</option>
+            <option value="09:30">09:30</option>
+            <option value="10:00">10:00</option>
+            <option value="10:30">10:30</option>
+            <option value="11:00">11:00</option>
+            <option value="11:30">11:30</option>
+            <option value="12:00">12:00</option>
+            <option value="12:30">12:30</option>
+            <option value="13:00">13:00</option>
+            <option value="13:30">13:30</option>
+            <option value="14:00">14:00</option>
+          </select>
+        </div>
+        <div class="flex flex-col date-input">
+          <label for="endTime" class="text-sm">end time</label>
+          <select name="endTime" id="endTime">
+            <option value="08:00">08:00</option>
+            <option value="08:30">08:30</option>
+            <option value="09:00">09:00</option>
+            <option value="09:30">09:30</option>
+            <option value="10:00">10:00</option>
+            <option value="10:30">10:30</option>
+            <option value="11:00">11:00</option>
+            <option value="11:30">11:30</option>
+            <option value="12:00">12:00</option>
+            <option value="12:30">12:30</option>
+            <option value="13:00">13:00</option>
+            <option value="13:30">13:30</option>
+            <option value="14:00">14:00</option>
+          </select>
+        </div>
+        <div>
+          <p>Please select your favorite Web language:</p>
+            <input type="radio" id="html" name="fav_language" value="HTML" />  
+          <label for="html">HTML</label><br />
+            <input type="radio" id="css" name="fav_language" value="CSS" />  
+          <label for="css">CSS</label><br />
+           
+          <input
+            type="radio"
+            id="javascript"
+            name="fav_language"
+            value="JavaScript"
+          />
+            <label for="javascript">JavaScript</label>
+        </div>
+        <div class="flex flex-col date-input">
+          <label for="description" class="text-sm">write a description</label>
+          <textarea
+            name="description"
+            id="description"
+            cols="30"
+            rows="10"
+            placeholder="Description..."
+          ></textarea>
+        </div>
+      </div>
+    </form>
   </body>
 </html>
